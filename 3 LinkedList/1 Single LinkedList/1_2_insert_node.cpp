@@ -22,6 +22,16 @@ void Insertathead(Node* &head, int d){
         head = temp;
 }
 
+// creating a function for the insertion of the node at the end of linked list
+void InsertaTail(Node* &tail, int d){
+        // creating a node
+        Node* temp = new Node(d);
+        tail->next = temp;
+        tail = tail->next;
+}
+
+
+
 // function for printin the elements of the linkedlist
 void  printlist(Node* &head){
         Node* temp = head;
@@ -40,9 +50,26 @@ int main(){
 
         // head pointed to node1
         Node* head = node1;
+
+        // tail
+        Node* tail = node1;
+
+
         printlist(head);
 
         Insertathead(head, 12);
+        printlist(head);
+
+
+        Insertathead(head, 15);
+        printlist(head);
+
+        //  inserting at the end of the linked list
+
+        InsertaTail(tail, 25);
+        printlist(head);
+
+        InsertaTail(tail, 35);
         printlist(head);
         
 
