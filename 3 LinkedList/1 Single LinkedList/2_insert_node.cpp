@@ -72,9 +72,6 @@ int main(){
         InsertaTail(tail, 35);
         printlist(head);
         
-
-
-
         
         return 0;
 }
