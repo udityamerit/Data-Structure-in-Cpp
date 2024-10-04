@@ -29,6 +29,26 @@ int main(){
         cout<<"front element of a vector is: "<<v.front()<<endl;
         cout<<"last element of the vector is: "<<v.back()<<endl;
 
+        // printing all the elements of the vector :
+        for(int i:v){
+                cout<<i<<" ";
+        }
+
+        // copy the vector to another vector:
+        
+        vector<int> a(5,3); // a(5,3) create a vector and assign the 5 times 3 in the vector a
+        // print the vector a
+        for(int i: a){
+                cout<<i<<" ";
+        }
+
+        vector<int> b(a);
+        // print the vector b
+        
+        for(int i: b){
+                cout<<i<<" ";
+        }
+
         return 0;
 
 
