@@ -129,15 +129,15 @@ int main(){
         printdata(head);
 
         // insert a node at last
-        insertatlast(tail, 90);
+        insertatlast(tail, 900);
         printdata(head);
 
         // insert a node at 3rd position
         insertatmiddle(3, 22, head, tail);
         printdata(head);
 
-        // insertatmiddle(4, 90, head, tail);
-        // printdata(head);
+        insertatmiddle(4, 90, head, tail);
+        printdata(head);
 
         cout<<"head = "<<head->data<<endl;
         cout<<"tail = "<<tail->data<<endl;
