@@ -12,7 +12,6 @@ struct Node{
                 this ->next = NULL;
         }
 };
-
 // creating a fuction for the insersion of the node at the start of linked list
 
 void Insertathead(Node* &head, int d){
