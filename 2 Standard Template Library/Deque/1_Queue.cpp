@@ -52,6 +52,9 @@ int main() {
     q.insert(50);
     q.insert(66);
     q.insert(2);
+    q.insert(50);
+    q.insert(66);
+    q.insert(2);
     q.insert(40);  // This will show "Queue is full"
 
     q.deleteItem();
