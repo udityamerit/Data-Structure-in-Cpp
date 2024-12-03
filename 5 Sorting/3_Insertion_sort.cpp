@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Time complexity O(n^2)
 void insertionsort(int arr[], int n){
         for(int i = 1; i<n; i++){
                 int curr = arr[i];
