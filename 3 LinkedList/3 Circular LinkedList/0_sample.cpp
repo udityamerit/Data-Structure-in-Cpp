@@ -23,34 +23,34 @@ void insertEnd(Node*& last, int data) {
         last = newNode;
         last->next = last;  // Pointing to itself, since it's the only node
     } else {
-        newNode->next = last->next;  // New node points to the head (first node)
-        last->next = newNode;        // Last node points to the new node
-        last = newNode;              // The new node becomes the last node
+        newNode->next = last->next;  
+        last->next = newNode;         
+        last = newNode;           
     }
 }
 
-// Function to delete a node with a specific value from the circular linked list
+
 void deleteNode(Node*& last, int value) {
     if (last == nullptr) {
         cout << "List is empty.\n";
         return;
     }
 
-    Node* temp = last->next;  // Start from the head
+    Node* temp = last->next;  
     Node* prev = last;
 
-    // If the list contains only one node
+    
     if (last == last->next && last->data == value) {
         delete last;
         last = nullptr;
         return;
     }
 
-    // If the head (first node) needs to be deleted
+    
     if (temp->data == value) {
         prev->next = temp->next;
         if (last->next == temp) {
-            last->next = temp->next;  // Update last->next if head is being deleted
+            last->next = temp->next;  
         }
         delete temp;
         return;
