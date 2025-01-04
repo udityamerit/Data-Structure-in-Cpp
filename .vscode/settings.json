@@ -1,5 +1,6 @@
 {
         "files.associations": {
-                "KIRTI.C": "cpp"
+                "KIRTI.C": "cpp",
+                "thread": "cpp"
         }
 }
