@@ -1,6 +1,6 @@
 def ip_address(ip):
         first_oct = int(ip.split('.')[0])
-        if 0<=first_oct<=127:
+        if 0<=first_oct<=126:
                 return "A"
         elif 128<=first_oct<=191:
                 return "B"
