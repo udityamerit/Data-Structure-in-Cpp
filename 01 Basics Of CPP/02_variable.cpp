@@ -41,7 +41,7 @@ int main(){
 
         // Type casting of the variables
 
-        float X = 90.3;
+        float X = 90.3f;
         int Y = 9;
         cout<<"value of x is: "<<int(X)<<endl;
         cout<<"value of y is: "<<float(Y);
