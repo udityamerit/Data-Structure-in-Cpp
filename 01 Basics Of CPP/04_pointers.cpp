@@ -11,6 +11,7 @@ int main(){
         cout<<endl<<&a<<endl;
         
         // * ---> it is called as the dereference operator and it is show the value at the address
+        
         cout<<"Value in the b is: "<<*b<<endl;
 
         return 0;
