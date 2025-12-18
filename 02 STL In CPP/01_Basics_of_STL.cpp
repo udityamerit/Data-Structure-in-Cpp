@@ -2,7 +2,7 @@
 using namespace std;
 /*
 
-STL(Standard Template Library --> it is predefines libraries which is used for saving the processing powers and optimizing the code complexity and improve the code readably
+STL(Standard Template Library) --> it is predefines libraries which is used for saving the processing powers and optimizing the code complexity and improve the code readably
 
 
 Components of STL:
