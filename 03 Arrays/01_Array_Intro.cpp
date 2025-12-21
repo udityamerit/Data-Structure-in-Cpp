@@ -22,3 +22,15 @@ int main(){
         // cout<<arr[0]<<" "<<arr[1]<<" "<<arr[2]<<endl;
         return 0;
 }
+
+/*
+Here you need to know the what is the segmentation fault or run time error in the array:
+
+so if you initialize the int a[10];
+        and you are try to run the cout<<a[10000];
+        it gives you the error of runtime (which say's that the you are trying to access a memory which is not yours)
+
+        cout<<a[-1] gives you the run time error
+
+        we can make the array of maximum a[10^6] 
+*/
