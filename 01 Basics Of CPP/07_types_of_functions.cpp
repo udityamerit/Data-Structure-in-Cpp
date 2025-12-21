@@ -49,6 +49,8 @@ int main(){
 
         cout<<"value of x and y after using call by pointer swapping "<<"x: "<<x<<" y: "<<y<<endl;
 
+        swap(x, y);
+        cout<<"Using the swap function: x = "<<x<<" and y= "<<y;
         return 0;
 }
 
