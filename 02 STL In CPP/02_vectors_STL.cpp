@@ -55,9 +55,5 @@ int main(){
 
         vector<int> v4(6, 23); //it say's that make a int vector of 23 and make a copy of 23 6 times
         display(v4);
-
-        
-
-
         return 0;
 }
