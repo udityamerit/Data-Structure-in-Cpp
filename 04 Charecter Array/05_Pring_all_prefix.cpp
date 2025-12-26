@@ -21,7 +21,6 @@ void printprifix(char input[]){
 // }
 
 int main(){
-
         char ch[50]= "HiIamUditya";
         printprifix(ch);
         // printsufix(ch);
