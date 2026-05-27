@@ -46,9 +46,21 @@ int main(){
         string sub = "hi,Hello?";
         cout<<sub.substr(3)<<endl;
 
-        //using the loop to print the all substrings
-        for(int i = 0 ; i<sub.size(); i++){
-                for(int j = )
-        }
+        string s1 = "uditya";
+        string s2 = s1.substr(0, 4); 
+        cout<<s2<<endl;
+        
+        string s3 = "abababcabc";
+        cout<<s3.find("abc")<<endl;
+
+        int a = 123;
+        string b = to_string(a);
+        cout<<b<<endl;
+
+        b.push_back('8');
+        cout<<b<<endl;
         return 0;
+
+
+
 }
